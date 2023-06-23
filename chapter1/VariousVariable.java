@@ -5,7 +5,7 @@ public class VariousVariable {
     // クラス変数
     static int classVariable;
 
-    // フィールド変数（メンバ変数）
+    // フィールド変数（メンバ変数,インスタンス変数）
     String instanceVariable;
 
     public void method() {

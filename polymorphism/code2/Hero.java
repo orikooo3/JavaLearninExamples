@@ -4,13 +4,15 @@ public class Hero extends Character {
 
     public Hero(int hp, String name) {
         super(hp, name);
+        setHp(hp);
+        setName(name);
     }
 
-    public void attack() {
+    public void attack(Character[] c) {
         System.out.println(getName() + "のHPは" + getHp());
     }
 
-    public void run() {
+    public void run(Character[] c) {
         System.out.println();
     }
 }

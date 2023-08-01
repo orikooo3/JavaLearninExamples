@@ -1,2 +1,2 @@
 # JavaLearninExamples
-java備忘録
+スッキリわかるJavaで学んだことを備忘録としています

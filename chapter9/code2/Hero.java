@@ -8,5 +8,6 @@ public class Hero {
 
     public void equipment() {
         sword.name = "エクスカリバー";
+
     }
 }

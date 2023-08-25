@@ -4,10 +4,13 @@ public class SubClass extends SuperClass {
 
     public SubClass() {
         super();
+        System.out.println("sub");
 
     }
 
     public SubClass(int num) {
-        this();
+        super();
+
+        System.out.println("sub2");
     }
 }

@@ -7,6 +7,6 @@ public class SuperClass {
     }
 
     public SuperClass() {
-        this(1, "1");
+        System.out.println("super");
     }
 }
